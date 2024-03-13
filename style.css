@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    align-items: center;
+    background-color: #1d4b57e0;
+}
+
+.div-icone-cabecalho{
+    display: flex; 
+    align-items: center;
+}
+.div-icone-cabecalho i{
+    margin-right: 10px;
+    font-size: 50px;
+    color: #00111b;
+}
+.lista-cabecalho{
+    display: flex;
+    list-style: none;
+}
+.lista-cabecalho li{
+    margin-left: 14px;
+    font-size: 18px;
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+}
+.sessao-cartaz img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+.sessao-cartaz{
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+    
+}
+.sessao-cartaz div{
+    margin: 10px;
+    flex: 1 1 200px;
+}
+.sessao-texto{
+    padding: 100px;
+    text-align: justify;
+    font-size: 17px;
+    background-color: #0f2e39;
+    color: white;
+}
+
+.rodape{
+    display: flex;
+}
+
+
