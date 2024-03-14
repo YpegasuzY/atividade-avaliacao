@@ -31,16 +31,17 @@
 }
 h2{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .sessao-cartaz img {
     max-width: 100%;
-    max-height: 100%;
+    height: 300px;
+    width: 300px;
     display: block;
 }
 .sessao-cartaz{
     text-align: center;
-    margin-top: 20px;
     display: flex;
     max-width: 700px;
     margin: 0 auto;
@@ -63,6 +64,24 @@ h2{
 
 .rodape{
     display: flex;
+    padding: 60px;
+    justify-content: space-evenly;
+    background-color: #1d4b57;
+    color: white
+}
+.lista-rodape {
+    display: flex;
+    list-style: none;
+    
+}
+.lista-rodape li{
+    margin-left: 50px;
+    font-size: 25px;
+}
+.div-icone-rodape i{
+    background-color: #1d4b57;
+   margin-left: 7px;
+   font-size: 20px;
 }
 /* https://paletadecores.com/paleta/1d4b57/163d48/0f2e39/07202a/00111b/ */
 
