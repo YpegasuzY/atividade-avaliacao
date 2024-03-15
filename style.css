@@ -85,6 +85,11 @@ h2{
 }
 .div-icone-rodape i:hover{
     background-color: #00111b;
+    text-decoration: none;
+    color: white;
+    margin-left: 7px;
+    font-size: 25px;
+    transition: 0.8s;
 }
     
 /* https://paletadecores.com/paleta/1d4b57/163d48/0f2e39/07202a/00111b/ */
