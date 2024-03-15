@@ -84,6 +84,7 @@ h2{
     font-size: 20px;
     text-decoration: none;
     color: white;
+    padding: 30px;
 }
 .div-icone-rodape i:hover{
     background-color: #00111b;
